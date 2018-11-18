@@ -5,10 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.course.testng</groupId>
-    <artifactId>Chapter</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>Chapter9</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.0.2</version>
+        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -16,6 +20,5 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
 
 </project>
